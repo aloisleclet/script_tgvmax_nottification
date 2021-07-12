@@ -16,19 +16,19 @@ When they cancel the service the email you and redirect you on a web app to allo
 
 2. git clone project
 
-'''
+```
   git clone https://github.com/aloisleclet/script_tgvmax_notification
-'''
+```
 
 3. edit crontab & add your line
 
-'''
+```
   crontab -e 
-'''
+```
 
-'''
+```
 42 * * * * /your/own/path/to/the/script.sh
-'''
+```
 
 4. enjoy :)
 
